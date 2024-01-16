@@ -10,7 +10,7 @@ const msg2 = document.querySelector(".msg2");
 const fromMsg = document.querySelector(".from-curr");
 const toMsg = document.querySelector(".to-curr");
 
-document.addEventListener("load", () => {
+window.addEventListener("load", () => {
   exchangeFunc();
 });
 
